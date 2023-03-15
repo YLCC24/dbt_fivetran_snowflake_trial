@@ -6,3 +6,9 @@ model-paths: ["models"]
 vars:
   google_ads_schema: google_ads_demo
   google_ads_database: pc_fivetran_db
+
+models:
+  dbt_demo:
+    presentation:
+      # materialize all models in models/events as tables
+      +materialized: table
