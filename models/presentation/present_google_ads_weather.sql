@@ -1,7 +1,7 @@
 with src as (
 
     select *
-    from {{ ref('google_ads_final_url_performance') }}
+    from {{ ref('clean_google_ads_final_url_performance') }}
 
 )
 
