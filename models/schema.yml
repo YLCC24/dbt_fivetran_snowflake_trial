@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: final_url_performance
+  - name: google_ads_final_url_performance
     description: The Click Performance report includes stats aggregated at each click level.
     columns:
       - name: _fivetran_id
