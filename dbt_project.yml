@@ -4,5 +4,5 @@ config-version: 2
 model-paths: ["models"]
 
 vars:
-  google_ads_schema: FAKE_GOOGLE_ADS_GOOGLESHEETS
+  google_ads_schema: fake_google_ads_googlesheets
   google_ads_database: pc_fivetran_db
