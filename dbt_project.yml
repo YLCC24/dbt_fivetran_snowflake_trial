@@ -4,5 +4,5 @@ config-version: 2
 model-paths: ["models"]
 
 vars:
-  google_ads_schema: google_ads_demo
+  google_ads_schema: google_ads_dev
   google_ads_database: pc_fivetran_db
